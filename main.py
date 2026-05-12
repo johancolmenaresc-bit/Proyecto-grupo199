@@ -58,7 +58,7 @@ class Reserva:
 
         except Exception as error:
             logging.exception("Error inesperado en reserva %s", self.id_reserva)
-            print(f"💥 Error inesperado en reserva {self.id_reserva}: {error}")
+            print(f" Error inesperado en reserva {self.id_reserva}: {error}")
             return False
 
         else:
@@ -84,7 +84,7 @@ class Reserva:
 
     def generar_resumen(self):
         return (
-            f"✅ Reserva {self.id_reserva} confirmada\n"
+            f" Reserva {self.id_reserva} confirmada\n"
             f"   Cliente: {self.cliente.nombre}\n"
             f"   Servicio: {self.servicio.obtener_detalle()}\n"
             f"   Duración: {self.duracion}\n"
