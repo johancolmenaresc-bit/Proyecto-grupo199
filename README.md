@@ -16,6 +16,6 @@ El proyecto está estructurado de forma modular en 3 partes:
 
 ### 🚀 Instrucciones de ejecución
 Para ejecutar el sistema, asegúrese de tener los tres archivos en la misma carpeta y ejecute el archivo principal:
+
 ```bash
 python main.py
-```
